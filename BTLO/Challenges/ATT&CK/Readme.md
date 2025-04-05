@@ -93,7 +93,7 @@ This challenge has no files attached. Only ATT&CK framework usage and reasoning.
 
 ## 🖼 Certificate
 
-![BTLO ATT&CK certificate](./attackcert.png)
+![BTLO ATT&CK certificate](./attackcert.jpg)
 
 
 
