@@ -16,12 +16,12 @@ A suspicious PowerShell script was found on one of our endpoints. Can you work o
 
 ### Questions:
 
-> What is the SHA256 hash value for the PowerShell script file?
-> What email address is used to send and receive emails? 
-> What is the password for this email account? 
-> What port is used for SMTP? 
-> What DLL is imported to help record keystrokes? 
-> What directory is the generated txt file put in?
+> - What is the SHA256 hash value for the PowerShell script file?
+> - What email address is used to send and receive emails? 
+> - What is the password for this email account? 
+> - What port is used for SMTP? 
+> - What DLL is imported to help record keystrokes? 
+> - What directory is the generated txt file put in?
 
 **🛠 How I solved it:**
 
