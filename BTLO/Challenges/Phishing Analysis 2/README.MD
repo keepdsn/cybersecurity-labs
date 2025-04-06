@@ -17,21 +17,18 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 
 ### 1️⃣ What is the sending email address?:
 
-> ### Answer:
 > Found using the EML Analyzer and verified with the `cat` command.
 > - Method: Located in the `From:` header.
 
 ### 2️⃣ What is the recipient email address?
 
-> ### Answer:
 > Found using the EML Analyzer and confirmed via `cat`.
-> Method: Located in the `To:` header.
+> - Method: Located in the `To:` header.
 
 ### 3️⃣ What is the subject line of the email?
 
-> ### Answer:
 > Identified using the EML Analyzer and `cat`.
-> Method: Found in the `Subject:` header.
+> - Method: Found in the `Subject:` header.
 
 **🛠 How I solved it:**
 
