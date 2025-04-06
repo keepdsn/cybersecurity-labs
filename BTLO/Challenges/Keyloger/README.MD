@@ -48,7 +48,7 @@ This challenge reinforced my understanding of:
 
 ## 📂 Files
 
-This challenge has no files attached. Only ATT&CK framework usage and reasoning.
+The challenge includes a compressed (zipped) malicious file intended for analysis
 
 ---
 
