@@ -26,7 +26,7 @@ A suspicious PowerShell script was found on one of our endpoints. Can you work o
 **🛠 How I solved it:**
 
 - A very simple challenge.
-- After extracting the archive in an isolated virtual machine, all answers were found using just the cat and grep commands.
+- After extracting the archive in an isolated virtual machine, all answers were found using just the "cat" and "grep" commands.
 
 🔐 The script was clearly designed to log keystrokes and exfiltrate data via email.
 No obfuscation or encoding was used, making analysis very straightforward.
