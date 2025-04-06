@@ -9,22 +9,17 @@
 ## 📌 Scenario
 
 Put your phishing analysis skils to the test by triaging and collecting information about a recent phishing campaign.
+A suspicious .eml email file was submitted for analysis. Your task is to examine it and extract critical information related to a potential phishing attempt.
 
 ---
 
 ## 🔍 Step-by-Step
 
-### 1️⃣ Question:
+### 1️⃣ What is the sending email address?:
 
-> Your company heavily relies on cloud services like Azure AD and Office 365.  
-> What technique should you focus on mitigating, to prevent an attacker performing Discovery activities if they have obtained valid credentials?  
-> _(Hint: Not using an API to interact with the cloud environment!)_
-
-**🛠 How I solved it:**
-
-- Navigated to the MITRE ATT&CK website 
-- Searched for techniques Discovery group involving **valid credentials**
-- Focused on techniques that use **PowerShell** or **cmdlets** instead of APIs
+> ### Answer:
+> Found using the EML Analyzer and verified with the cat command.
+> ### Method: Located in the From: header.
 
 ### 2️⃣ Question:
 
