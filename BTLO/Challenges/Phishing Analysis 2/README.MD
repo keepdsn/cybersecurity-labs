@@ -21,20 +21,17 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 > Found using the EML Analyzer and verified with the `cat` command.
 > - Method: Located in the `From:` header.
 
-### 2️⃣ Question:
+### 2️⃣ What is the recipient email address?
 
-> You were analyzing a log and found uncommon data flow on port 4050. What APT group might this be?
+> ### Answer:
+> Found using the EML Analyzer and confirmed via `cat`.
+> Method: Located in the `To:` header.
 
-**🛠 How I solved it:**
+### 3️⃣ What is the subject line of the email?
 
-- I searched Google for information about activity on TCP port 4050
-- Identified a known association between this port and a specific tool or malware
-- Cross-checked the results against the MITRE ATT&CK database
-- Found the APT group documented by MITRE as using this port
-
-### 3️⃣ Question:
-
-> The framework has a list of 9 techniques that falls under the tactic to try to get into your network. What is the tactic ID?
+> ### Answer:
+> Identified using the EML Analyzer and `cat`.
+> Method: Found in the `Subject:` header.
 
 **🛠 How I solved it:**
 
