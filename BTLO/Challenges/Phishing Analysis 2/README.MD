@@ -18,7 +18,7 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 ### 1️⃣ What is the sending email address?:
 
 > ### Answer:
-> Found using the EML Analyzer and verified with the cat command.
+> Found using the EML Analyzer and verified with the `cat` command.
 > - Method: Located in the `From:` header.
 
 ### 2️⃣ Question:
