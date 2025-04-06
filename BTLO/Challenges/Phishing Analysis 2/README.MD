@@ -30,33 +30,20 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 > Identified using the EML Analyzer and `cat`.
 > - Method: Found in the `Subject:` header.
 
-**🛠 How I solved it:**
+### 4️⃣ What company is the attacker trying to imitate?
 
-- Opened the MITRE ATT&CK site → went to the Tactics section. 
-- Looked for the one responsible for getting into the network.
-- Found Initial Access — it had exactly 9 techniques. Took the ID from there.
+> Determined from branding in the message content using the EML Analyzer and verified with `cat`.
+> - Method: The spoofed company is visible in the email body.
 
-### 4️⃣ Question:
+### 5️⃣ What is the date and time the email was sent?
 
-> A software prohibits users from accessing their account by deleting, locking the user account, changing password etc.
-> What such software has been documented by the framework?
+> Extracted using the following terminal command: `cat email.eml | grep -i date`
+> - Note: The date format shown in the EML Analyzer did not match the required format, so it was retrieved directly from the raw `.eml` file.
 
-**🛠 How I solved it:**
+### 6️⃣ What is the URL of the main call-to-action button?
 
-- At first I tried searching in the Software section, but didn’t find anything that matched the description.
-- Then I checked the Impact tactic — since it’s about locking users out. 
-- There I found the right software, even though its main description in the Software section focuses on something else.
-
-### 5️⃣ Question:
-
-> Using ‘Pass the Hash’ technique to enter and control remote systems on a network is common.
-> How would you detect it in your company? 
-
-**🛠 How I solved it:**
-
-- I searched for Pass the Hash in the MITRE ATT&CK framework and found it.
-- Then I went to the Detection section of that technique and found the answer.
-  
+> Identified using the EML Analyzer and `cat`.
+> - Method: Found in the `Subject:` header.
 ---
 
 ## 🧠 Notes
