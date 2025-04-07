@@ -42,8 +42,34 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 
 ### 6️⃣ What is the URL of the main call-to-action button?
 
-> Identified using the EML Analyzer and `cat`.
-> - Method: Found in the `Subject:` header.
+> Opened the `.eml` file in a detached virtual machine and manually extracted the link.
+> - Reason: The link was embedded in an encoded HTML section and not visible via `cat`.
+
+### 7️⃣ What is the first sentence (heading) displayed on the target website (via URL2PNG)?
+
+> URL2PNG was not functional.
+> The link was opened in an isolated virtual machine, and the heading was copied manually from the rendered webpage.
+
+### 8️⃣ What encoding scheme is used in the email body?
+
+> A very common encoding scheme was used.
+> - Method: Located in the email headers as: `Content-Transfer-Encoding:` 
+
+### 9️⃣ What is the URL used to retrieve the company’s logo in the email?
+
+> Found using the EML Analyzer.
+> - Reason: The image source was located in the HTML body, which was ***-encoded, and not visible using `cat`.
+
+### 9️⃣ What is the Facebook username mentioned in one of the URLs?
+
+> Found using the EML Analyzer.
+> - The URL containing the Facebook profile was found inside an encoded HTML section, inaccessible via cat.
+
+
+
+
+
+
 ---
 
 ## 🧠 Notes
