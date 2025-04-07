@@ -82,9 +82,10 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 - Always analyze emails in a sandbox or isolated VM to avoid accidental execution of malicious content.
 - Email headers often reveal key metadata without needing to decode the body.
 - This challenge improved my skills in:
- > Email header analysis
- > Recognizing encoding schemes
- > Using safe environments for dynamic inspection
+ > - Email header analysis
+ > - Recognizing encoding schemes
+ > - Using safe environments for dynamic inspection
+
 ---
 
 ## 📂 Files
