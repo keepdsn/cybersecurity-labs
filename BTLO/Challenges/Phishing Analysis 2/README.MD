@@ -60,7 +60,7 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 > Found using the EML Analyzer.
 > - Reason: The image source was located in the HTML body, which was ***-encoded, and not visible using `cat`.
 
-### 9️⃣ What is the Facebook username mentioned in one of the URLs?
+### 🔟 What is the Facebook username mentioned in one of the URLs?
 
 > Found using the EML Analyzer.
 > - The URL containing the Facebook profile was found inside an encoded HTML section, inaccessible via `cat`.
