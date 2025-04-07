@@ -63,25 +63,28 @@ A suspicious .eml email file was submitted for analysis. Your task is to examine
 ### 9️⃣ What is the Facebook username mentioned in one of the URLs?
 
 > Found using the EML Analyzer.
-> - The URL containing the Facebook profile was found inside an encoded HTML section, inaccessible via cat.
+> - The URL containing the Facebook profile was found inside an encoded HTML section, inaccessible via `cat`.
 
+---
 
+## 🛠 Tools & Techniques Used
 
-
-
+- cat, grep — for inspecting plaintext headers
+- EML Analyzer — for decoding and viewing HTML body
+- Isolated Virtual Machine — for safely opening potentially malicious links
+- Manual inspection of raw EML file with a text editor
 
 ---
 
 ## 🧠 Notes
 
-- MITRE ATT&CK is super useful when you break down the scenario by **tactic first**, then narrow it down by technique.
-- Not every software in ATT&CK has a clear description — sometimes better to search by **behavior or tactic**, not just names.
-- Always check the **Detection** section — it often has real-world event IDs, log types, or tools to monitor.
-- Good tools/resources used:
-  - 🔍 [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
-  - 🧭 Google with `site:attack.mitre.org` filter
-  - 🧰 OSINT & log analysis skills help in threat intelligence
-
+- Many phishing emails use `***` to encode HTML content and obfuscate malicious links or embedded resources.
+- Always analyze emails in a sandbox or isolated VM to avoid accidental execution of malicious content.
+- Email headers often reveal key metadata without needing to decode the body.
+- This challenge improved my skills in:
+ -- Email header analysis
+ -- Recognizing encoding schemes
+ -- Using safe environments for dynamic inspection
 ---
 
 ## 📂 Files
