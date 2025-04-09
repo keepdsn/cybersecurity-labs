@@ -26,7 +26,7 @@ This space documents my hands-on progress through labs, challenges, and courses 
 - [BTLO - Melissa (🟢 Easy)](./BTLO/Challenges/Melissa/README.MD) \
   Macro virus analysis of W97M.Melissa.A with VBA inspection and behavioral indicators.
   
-- [BTLO - ILOVEYOU (🟢 Easy)](./BTLO/Challenges/ILOVEYOU/README.MD) \
+- [BTLO - ILOVEYOU (🟢 Easy)](./BTLO/Challenges/ILOVEYOU/readme.md) \
   Reverse engineering the ILOVEYOU worm to identify its replication methods, payload behavior, and email propagation techniques.
 
 
