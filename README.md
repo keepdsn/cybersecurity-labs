@@ -10,6 +10,28 @@ This space documents my hands-on progress through labs, challenges, and courses 
 - 🧪 Writeups and walkthroughs from threat simulations
 - 🧰 My own notes on tools, methods, and commands
 
+## 📁 Incident Response Challenges:
+
+- [BTLO - ATT&CK Challenge (🟢 Easy)](./BTLO/Challenges/ATT&CK/Readme.md) \
+  Testing knowledge of MITRE ATT&CK tactics and techniques based on real-world scenarios.
+
+## 📁 Reverse Engineering Challenges:
+
+- [BTLO - PowerShell Analysis - Keyloger Challenge (🟢 Easy)](./BTLO/Challenges/Keyloger/Readme.md) \
+  Analysis of a malicious executable to identify keylogging behavior and recover stolen credentials.
+
+- [BTLO - Malware Analysis - Ransomware Script (🟢 Easy)](./BTLO/Challenges/Malware%20Analysis/Readme.md) \
+  Investigation of a ransomware script to identify its encryption method, ransom note, and indicators of compromise.
+
+- [BTLO - Melissa (🟢 Easy)](./BTLO/Challenges/Melissa/Readme.md) \
+  Macro virus analysis of W97M.Melissa.A with VBA inspection and behavioral indicators.
+
+## 📁 Security Operations Challenges:
+
+- [BTLO - Phishing Analysis 2 (🟢 Easy)](./BTLO/Challenges/Phishing%20Analysis%202/Readme.md) \
+  Test by triaging and collecting information about a recent phishing campaign.
+
+
 ## 🚀 Platforms I work with
 - TryHackMe
 - Blue Team Labs Online (BTLO)
