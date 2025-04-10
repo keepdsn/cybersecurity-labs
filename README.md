@@ -13,7 +13,7 @@ This space documents my hands-on progress through labs, challenges, and courses 
 ## 📁 Network Forensics:
 
 - [CyberDefenders - WebStrike (🟢 Easy)](./CyberDefenders/Labs/Webstrike/readme.md) \
-  Testing knowledge of MITRE ATT&CK tactics and techniques based on real-world scenarios.
+  PCAP analysis challenge focused on web shell upload, reverse shell activity, and data exfiltration.
 
 ## 📁 Incident Response:
 
