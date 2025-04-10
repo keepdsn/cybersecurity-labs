@@ -10,7 +10,12 @@ This space documents my hands-on progress through labs, challenges, and courses 
 - 🧪 Writeups and walkthroughs from threat simulations
 - 🧰 My own notes on tools, methods, and commands
 
-## 📁 Incident Response Challenges:
+## 📁 Network Forensics:
+
+- [CyberDefenders - WebStrike (🟢 Easy)](./CyberDefenders/Labs/Webstrike/readme.md) \
+  Testing knowledge of MITRE ATT&CK tactics and techniques based on real-world scenarios.
+
+## 📁 Incident Response:
 
 - [BTLO - ATT&CK Challenge (🟢 Easy)](./BTLO/Challenges/ATT&CK/Readme.md) \
   Testing knowledge of MITRE ATT&CK tactics and techniques based on real-world scenarios.
