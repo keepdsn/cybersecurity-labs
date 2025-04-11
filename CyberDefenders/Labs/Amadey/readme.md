@@ -12,7 +12,7 @@
 
 An after-hours alert from the Endpoint Detection and Response (EDR) system flags suspicious activity on a Windows workstation. The flagged malware aligns with the Amadey Trojan Stealer. Your job is to analyze the presented memory dump and create a detailed report for actions taken by the malware.
 
-![Cyberdefenders screenshot](./amad_screen.jpg)
+![Cyberdefenders screenshot](./amad_screen.png)
 
 ---
 
