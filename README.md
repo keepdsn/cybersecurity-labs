@@ -15,12 +15,17 @@ This space documents my hands-on progress through labs, challenges, and courses 
 - [CyberDefenders - WebStrike (🟢 Easy)](./CyberDefenders/Labs/Webstrike/readme.md) \
   PCAP analysis challenge focused on web shell upload, reverse shell activity, and data exfiltration.
 
+## 📁 Endpoint Forensics:
+
+- [CyberDefenders - Amadey (🟢 Easy)](./CyberDefenders/Labs/Amadey/readme.md) \
+  Memory forensics challenge focused on identifying Amadey Trojan behavior using Volatility
+  
 ## 📁 Incident Response:
 
 - [BTLO - ATT&CK Challenge (🟢 Easy)](./BTLO/Challenges/ATT&CK/Readme.md) \
   Testing knowledge of MITRE ATT&CK tactics and techniques based on real-world scenarios.
 
-## 📁 Reverse Engineering Challenges:
+## 📁 Reverse Engineering:
 
 - [BTLO - PowerShell Analysis - Keyloger Challenge (🟢 Easy)](./BTLO/Challenges/Keyloger/README.MD) \
   Analysis of a malicious executable to identify keylogging behavior and recover stolen credentials.
@@ -35,7 +40,7 @@ This space documents my hands-on progress through labs, challenges, and courses 
   Reverse engineering the ILOVEYOU worm to identify its replication methods, payload behavior, and email propagation techniques.
 
 
-## 📁 Security Operations Challenges:
+## 📁 Security Operations:
 
 - [BTLO - Phishing Analysis 2 (🟢 Easy)](./BTLO/Challenges/Phishing%20Analysis%202/README.MD) \
   Test by triaging and collecting information about a recent phishing campaign.
