@@ -72,7 +72,7 @@ Happy Hunting!
 
 ![New_Hire_Old_Artifacts screenshot](./9_task.png)
 
-### 🔟 The process list shows several executables from AppData folders. After quick verification via Google, safe applications are excluded, and one remains as the likely malicious binary.
+### 🔟 What were the DLLs that were loaded from the binary from the previous question? Enter the answers in alphabetical order. (format: file1.dll,file2.dll,file3.dll)
 
 > The search is refined using the path to the identified binary and the `.dll` extension. The first three DLLs in the results are listed alphabetically.
 
